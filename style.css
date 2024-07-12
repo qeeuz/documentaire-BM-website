@@ -1,0 +1,10 @@
+.tekst {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tussenkop {
+  width: 350px;
+}
