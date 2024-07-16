@@ -1,18 +1,36 @@
 .tekst {
   display: flex;
-  text-align: center;
   flex-direction: column;
+  text-align: center;
   align-items: center;
+  padding: 10px;
 }
 
 .tussenkop {
-  width: 550px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 550px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 p {
-  margin: 30px;
+  margin: 15px;
 }
 
 b {
   font-weight: 600;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .tussenkop {
+    width: 100%;
+    padding: 5px;
+  }
+
+  p {
+    margin: 10px;
+  }
 }
