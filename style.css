@@ -6,5 +6,13 @@
 }
 
 .tussenkop {
-  width: 350px;
+  width: 550px;
+}
+
+p {
+  margin: 30px;
+}
+
+b {
+  font-weight: 600;
 }
